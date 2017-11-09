@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+    	<h2 style="text-align:center;">ME CONTACTER</h2>
+    	<form action="server.php" method="post">
+    		<table align="center">
+                <tr>    
+    			     <td>
+                         <label for="nom">
+                                <img src="../images/style/icon/icon-user.png">
+                         </label>
+                     </td>
+                     <td>
+                        <input type="text" name="nom" id="nom" placeholder="Votre nom" tabindex="1" style ="height:45px; width:250px"> 
+                     </td>
+                     <td style ="width:50px"></td>
+                     <td>
+                         <label for="email">
+                                <img src="../images/style/icon/icon-email.png"> 
+                         </label>
+                     </td>
+                     <td>
+                       <input type="email" name="email" id="email" placeholder="Votre email" tabindex="2" style ="height:45px; width:252px">  
+                     </td>
+    		    </tr>
+                <tr style ="height:20px;"></tr>
+                <tr>
+                    <td>
+                        <label for="message"> 
+                            <img src="../images/style/icon/icon-message.png" style =""> 
+                        </label>
+                    </td>
+                     <td colspan="4">                           
+                      	  <textarea name="message" id="message" placeholder="Votre message" tabindex="3" style ="height:228px; width:623px"></textarea>
+    		          </td>
+                </tr>
+                <tr style ="height:20px;"></tr>
+                <tr>
+                    <td colspan="5">      
+    			         <input type="submit" name="envoyer" value="ENVOYER" tabindex="4" style ="height:50px; width:690px; background:#33cc66">
+                    </td>
+                </tr>
+    		</table>
+    	</form>
+    </body>
+</html>       
